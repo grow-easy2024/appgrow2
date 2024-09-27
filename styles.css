@@ -1,0 +1,97 @@
+/* Similar al código anterior, pero con algunas actualizaciones para el nuevo contenido */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.aviso-sorteo {
+    background-color: #FFD700;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: white;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="file"], input[type="date"], textarea {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f1f1f1;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-left: 5px solid #4CAF50;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
